@@ -96,22 +96,19 @@
 
 </header>
 
-
-
-
 <div class="main-content">
 
-    <section id="bg-rates-img" class="bg-rates-img banner-sec text-center text-lg-left">
+    <section id="bg-services-img" class="bg-services-img banner-sec text-center text-lg-left">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="banner-content">
-                        <h4 class="banner-heading">Contact Me</h4>
+                        <h4 class="banner-heading">Portfolio</h4>
                         <div class="crumbs">
                             <nav aria-label="breadcrumb" class="breadcrumb-items">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="../index.html"><i class="las la-home"></i> Home</a></li>
-                                    <li class="breadcrumb-item"><a href="contact.html">Contact Me</a></li>
+                                    <li class="breadcrumb-item"><a href="portfolio.html">Portfolio</a></li>
                                 </ol>
                             </nav>
                         </div>
@@ -120,89 +117,96 @@
             </div>
         </div>
     </section>
+
     <section id="about1" class="about">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <div class="about-text text-center text-lg-left">
-                        <h6 class="heading">Thanks for stopping by,</h6>
-                        <h1 class="main-heading">Looking forward to work with your company and share my skills</h1>
+                    <div class="about-text text-center text-md-left">
+                        <h6 class="heading">College Thesis, Web Systems</h6>
+                        <h1 class="main-heading">THESERVE: ONLINE ORDERING SYSTEM FOR AMARAH'S CORNER - LAS PIÑAS</h1>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 text-center text-lg-left">
-                    <p class="sub-heading">Anticipating the opportunity to collaborate with your esteemed organization, I'm enthusiastic about leveraging my versatile skills to propel innovation and attain mutual objectives.
-                        <br><br>
-                        With a collaborative spirit and a history of delivering impactful results, I look forward to making a meaningful impact and fostering growth within your dynamic team.</p>
+                <div class="col-12 col-md-6 text-center text-md-left">
+                    <p class="sub-heading">Through my college thesis project, We've developed THESERVE, an advanced online ordering system tailored for Amarah's Corner in Las Piñas. My role involved meticulously managing the back-end infrastructure and integrating Lalamove Delivery API seamlessly into the platform. <br><br>THESERVE redefines the dining experience, offering patrons a user-friendly interface to browse menus, place orders, and coordinate pickups or deliveries with ease.</p>
                 </div>
             </div>
         </div>
     </section>
+
+    <section id="detail_process" class="detail-process">
+        <div class="row no-gutters">
+            <div class="col-sm-12 col-lg-6 overflow-hidden">
+                <div class="process_image figure">
+                    <img src="img/service1.jpg" alt="process image">
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-6 margin-col">
+                <div class="process_text wow slideInRight" data-wow-delay="900ms" data-wow-duration="0.8s" style="visibility: visible; animation-delay: 700ms; animation-name: slideInRight;">
+                    <p class="sub-heading text-brown">Front-End Development</p>
+                    <h1 class="main_heading margin_heading heading_font_sm width text-brown">Features a User-Friendly Interface, Minimalistic UI</h1>
+                    <p class="info info_width">The front-end of the system was skillfully developed using HTML and CSS, enabling the creation of a polished and visually engaging user interface. JavaScript, along with jQuery and AJAX libraries, was harnessed to implement dynamic functionalities, providing users with seamless interactions and real-time updates. Bootstrap elements were thoughtfully integrated to ensure responsiveness and to enhance the system's modern and minimalist aesthetic, contributing to its overall appeal.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-sm-12 col-lg-6 order-lg-2 overflow-hidden">
+                <div class="process_image figure">
+                    <img src="img/service2.jpg" alt="process image">
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-6 order-lg-1 margin-col">
+                <div class="process_text wow slideInLeft" data-wow-delay="900ms" data-wow-duration="0.8s" style="visibility: visible; animation-delay: 700ms; animation-name: slideInLeft;">
+                    <p class="sub-heading text-brown">Back-End Development</p>
+                    <h1 class="main_heading margin_heading heading_font_sm width text-brown">Streamlined Database, Back End API Integration</h1>
+                    <p class="info info_width">The back-end was developed using PHP for server-side scripting, handling logic, form data processing, and generating dynamic content. MySQL managed the database contents, enabling seamless interaction with PHP scripts for efficient data management and retrieval. Back-end also features API integration of the delivery orders, which is integrating the Lalamove Delivery API into the system's back-end core.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="booking" class="booking">
         <div class="container">
             <div class="row">
-               <div class="col-sm-12 col-lg-7 form-outer ml-auto mr-auto mt-5 text-left">
-                    <!--        <h1 class="main-heading text-grey text-center">Book Now!</h1>-->
-                    <form action="https://api.web3forms.com/submit" method="POST" class="contact-form" ">
-                        <input type="hidden" name="access_key" value="edf0a8a3-9508-4634-9a59-7a8dee5d3eda">        
-                        <div class="row mt-4">
-                            <div class="col-sm-12" id="result"></div>
-
-                            <div class="col-lg-6">
-                                <div class="form-group">
-                                    <input class="form-control" type="text" placeholder="Name" required  name="name">
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6">
-                                <div class="form-group">
-                                    <input class="form-control" type="email" placeholder="Email" required  name="email">
-                                </div>
-                            </div>
-
-                            <div class="col-lg-12">
-                                <div class="form-group">
-                                    <textarea class="form-control" type="email" placeholder="Enter Message Here" required  name="message" rows="6"></textarea>
-                                </div>
-                            </div>
-                            <button type="submit" class="btn btn-large trans-btn white-btn ml-auto ml-lg-3 mr-auto mt-4 contact_btn" >Submit</button>
-                        </div>
-
-                    </form>
-                </div>
-                <div class="col-12 col-lg-5">
-                    <section  class="contact-content contact-padding">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm-12 mt-5 mt-md-5 mt-lg-0">
-                                    <div class="card box text-center">
-                                        <div class="feature-icon text-center">
-                                            <i class="las la-envelope-open-text bg-feature-icon"></i>
-                                        </div>
-                                        <div class="card-body">
-                                            <h2 class="card-title text-grey">Email & Call</h2>
-                                            <p class="card-text mb-3">Markryanjancorda@gmail.com<br>+09154704204</div>
-                                    </div>
-                                </div>
-
-                                <div class="col-sm-12  pt-50 mt-sm-0 mt-md-0 mt-lg-0 mb-5 mb-md-3 mb-lg-0">
-                                    <div class="card box text-center">
-                                        <div class="feature-icon text-center">
-                                            <i class="las la-map-marked bg-feature-icon"></i>
-                                        </div>
-                                        <div class="card-body">
-                                            <h2 class="card-title text-grey">Where am I located</h2>
-                                            <p class="card-text mb-3">Molino 3, Bacoor Cavite <br> Philippines.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </section>
+                <div class="col-12 col-lg-10 offset-lg-1 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1.3s" style="visibility: visible; animation-delay: 700ms; animation-name: fadeInUp;">
+                    <div class="booking_text text-center">
+                        <h1 class="main-heading text-white mb-3">Demonstration Video</h1>
+                        <p class="sub-heading">Check out the video below to see how the website works!</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <section id="video" class="video bg-video-img">
+        <div class="overlay1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center align-items-center">
+                        <div class="video-btn">
+                            <a data-fancybox="" href="https://www.youtube.com/watch?v=4dKy3hUcEaU&t=62s"><i class="las la-play play-btn text-white"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking" class="booking">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-10 offset-lg-1 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1.3s" style="visibility: visible; animation-delay: 700ms; animation-name: fadeInUp;">
+                    <div class="booking_text text-center">
+                        <h6 class="heading text-white">I'm seeking employment</h6>
+                        <h1 class="main-heading text-white mb-3">Let's work together</h1>
+                        <p class="sub-heading">Hi there! As a web developer and IT specialist, I'm ready to tackle new projects. Let's bring your digital ideas to life.<br>Get in touch, and let's make it happen!</p>
+                        <a href="contact.html" class="btn btn-large trans-btn white-btn">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="footer" class="footer bg-dark-1">
         <div class="container">
             <div class="row">
@@ -222,7 +226,6 @@
 
 
 <!-- JavaScript -->
-<script src="https://web3forms.com/client/script.js" async defer></script>
 <script src="../vendor/js/bundle.min.js"></script>
 
 <!-- Plugin Js -->
@@ -237,7 +240,6 @@
 <script src="js/mediaelement-and-player.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="../vendor/js/parallaxie.min.js"></script>
-<script src="../vendor/js/contact_us.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>

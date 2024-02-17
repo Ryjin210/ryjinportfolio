@@ -666,6 +666,23 @@ li.navbar_list:hover{
     min-height: 655px
 }
 
+.parallax-img4{
+    background-image: url("../img/parallax-4.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 655px
+}
+.parallax-color4{
+    background-color: #111520;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 655px
+}
+
 .home .img-area{
     position: relative;
 }
